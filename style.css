@@ -1,0 +1,90 @@
+
+html, body {
+    background-color: hsl(47, 88%, 63%);
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    font-family: 'Figtree', sans-serif; 
+    /* font-size: 16px; */
+}
+
+.card {
+    background-color: white;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;   
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    transition: 0.3s;
+    width: 400px;
+    align-items: center;
+    box-shadow: -1px -1px 0px rgba(0, 0, 0, 1), 6px 6px 0px rgba(0, 0, 0, 1); /* Solid shadow on bottom-right */}
+
+#learning {
+    background-color: hsl(47, 88%, 63%); /* Set the background color */
+    font-weight: bold;                   /* Make the text bold */
+    border-radius: 8px;                 /* Add rounded corners to the background */
+    padding: 8px 10px;                  /* Add padding to make the background bigger */
+    margin-left: 15px;
+    
+}
+
+h1{
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+}
+
+h1:hover{
+    color:  hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+time{
+    display: block;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-top: 30px;
+}
+
+.mainImg {
+    width: 350px;                   /* Make the image span the card width */
+    border-radius: 16px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.container {
+    /* margin-left: 20px; */
+    padding: 15px;                 /* Add padding inside the card */
+    text-align: left;              /* Left-align the text */
+}
+
+#description{
+    font-size: 16px;
+    color:  hsl(0, 0%, 42%);
+    margin-left: 15px;
+    line-height: 1.65em;
+}
+
+.profileName {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 230px;
+    padding-bottom: 20px;
+    font-weight: bold; 
+    font-size: 14px;
+}
+
+.profileImg {
+    width: 35px;
+    padding-right: 10px;
+    /* padding-bottom: 5px; */
+}
